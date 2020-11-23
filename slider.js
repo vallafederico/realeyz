@@ -507,4 +507,3 @@
   }
 
   new Sketch("container");
-}
