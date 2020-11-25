@@ -321,7 +321,7 @@ class Sketch {
             pos.z += hoverstate * (.1);
 
             // Inner Animation for Case Study # 2
-            vec3 v = (normalize(pos) * .2);
+            vec3 v = (normalize(pos) * .5);
             v.z +=1.;
             v.x += .2;
             pos = mix(pos, v, buttoninner);
