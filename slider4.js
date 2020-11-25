@@ -258,7 +258,7 @@ class Sketch {
         uniforms: {
           time: {type: "f", value: 0 },
           clickprogress: {type: "f", value: 0 },
-          introanim: {type: "f", value: 0 },
+          introanim: {type: "f", value: 1 },
           buttonin: {type: "f", value: 0 },
           buttoninner: {type: "f", value: 0 },
           intersecting: {type: "f", value: 0 },
