@@ -134,6 +134,7 @@ class Sketch {
         inner: document.getElementById('inner'), // 4
         outer: document.getElementById('outer'), // 5
       };
+        console.log(this.bt);
       let werein = false;
 
       // IN
