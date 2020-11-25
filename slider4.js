@@ -206,6 +206,7 @@ class Sketch {
         this.group.children.forEach((item, i) => {
           gsap.to(item.material.uniforms.buttoninner, {value:1., duration:.7, ease: "power3.out"})
           gsap.to(item.material.uniforms.buttonin, {value:0, duration:.5, ease: "power3.out"})
+            console.log("inner!");
 
         });
       })
@@ -213,7 +214,7 @@ class Sketch {
         this.group.children.forEach((item, i) => {
           gsap.to(item.material.uniforms.buttoninner, {value:0., duration:.8, ease: "power4.out"})
           gsap.to(item.material.uniforms.buttonin, {value:1, duration:.5, ease: "power3.out"})
-
+            console.log("outer");
         });
       })
 
