@@ -383,6 +383,7 @@ class Sketch {
         item.pause();
         item.addEventListener("loadeddata", ()=> {
           loadingCount +=1;
+           console.log('loaded', i);
 
           if(loadingCount == loadingTarget) {
             // console.log('loaded all videos');
