@@ -369,7 +369,7 @@
           gsap.to(this.loadin.bar, {width : this.loadin.unit*loadingCount, duration: 2, delay:.2});
           // Check if all videos are loaded
           if(loadingCount == loadingTarget) {
-            loadingwrap.style.display = "none";
+            setTimeout(function(){loadingwrap.style.display = "none";}, 1000);
             this.imagesandPlanes();
           }
           return;
