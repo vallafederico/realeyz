@@ -6,7 +6,7 @@
       this.height = window.innerHeight;
       this.renderer.setPixelRatio(window.devicePixelRatio);
       this.renderer.setSize(this.width, this.height);
-      this.renderer.setClearColor(0x111111, 1);
+      this.renderer.setClearColor(0x111111, 0);
       this.renderer.physicallyCorrectLights = true;
       this.renderer.outputEncoding = THREE.sRGBEncoding;
 
